@@ -3,7 +3,7 @@
 # Contributor: judd <jvinet@zeroflux.org>
 
 pkgname=flex-git
-pkgver=2.6.1.r39.g1c5af61
+pkgver=2.6.2.r0.g35d2fdf
 pkgrel=1
 pkgdesc="A tool for generating text-scanning programs"
 arch=('i686' 'x86_64')
@@ -15,7 +15,7 @@ conflicts=("flex")
 depends=('glibc' 'm4' 'sh')
 makedepends=('help2man' 'git')
 install=flex.install
-source=("git+https://github.com/westes/flex.git")
+source=("git+https://github.com/westes/flex.git#tag=v2.6.2")
 md5sums=('SKIP')
 
 pkgver() {
