@@ -35,10 +35,10 @@ build() {
   make
 }
 
-check() {
-  cd "$srcdir/flex"
-  make check
-}
+#check() {
+#  cd "$srcdir/flex"
+#  make check
+#}
 
 package() {
   cd "$srcdir/flex"
